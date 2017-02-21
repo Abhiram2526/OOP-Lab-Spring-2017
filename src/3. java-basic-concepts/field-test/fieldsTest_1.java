@@ -7,7 +7,7 @@
  */
  
  
- public class fields {
+ public class fieldsTest_1 {
  	public static void main(String[] args) {
 		
 		//Declaring & Initializing Variables
@@ -20,20 +20,14 @@
 		short shortType = 2;
 		char character = 'A';
 		boolean b = true;
+		long l;
 		
-		//For a local variable
-		
-		if(integer > 0)
-		{
-			int newVar ;
-			System.out.println(newVar);
-		}
 		
 		System.out.println("Interger:" + integer + "\nFloating(float):"
 			+ floating + "\nfloating(double): " + floatingDouble 
 			+ "\nString:" + stringType + "\nByte:" + byteType 
 			+ "\nShort:" + shortType + "\nCharacter:" + character 
-			+ "\nBoolean:" + b);
+			+ "\nBoolean:" + b + "\nlong: " + l);
 			
 		}
 	}
@@ -45,5 +39,8 @@
  * fields.java:25: error: variable *DATA_TYPE might not have been initialized
  * ## On not initializing a local variable
  * fields.java:29: error: variable *VAR_NAME not have been initialized
+ * # Reason of The Existence Of The Bugs :
+ * It is because is an Instance Variable i.e there is not deafult constructor to 
+ * initialize it.
  */
 

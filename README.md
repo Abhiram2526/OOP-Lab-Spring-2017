@@ -8,7 +8,7 @@ A repository for the JAVA lab assignments of Spring-2017.
 
 **2.** `real-world-objects` ~~Not~~ real world objects.
 
-**3.** `java-basic-concepts` Here comes the concept _(Pending)_
+**3.** `java-basic-concepts` Here comes the concept
 
 **4.** `java-basic-io` Let's io stuff
 
