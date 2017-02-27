@@ -1,7 +1,7 @@
 # Object Oriented Programming in Java Lab (Spring-2017) 
 A repository for the JAVA lab assignments of Spring-2017.
 
-[logo]: http://www.eworksng.com/wp-content/uploads/2016/11/images.png "Logo"
+![alt text](http://www.eworksng.com/wp-content/uploads/2016/11/images.png "Logo Title Text 1")
 
 
 ## Contents:
