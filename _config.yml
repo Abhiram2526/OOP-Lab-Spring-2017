@@ -1,3 +1,11 @@
+# Theam of the blog
 theme: jekyll-theme-cayman
+
 # Name of the blog (this will show up at the top of your page and in the RSS feed)
 name: Object Oriented Programming (Spring-2017)
+
+# Name of author
+author: Batakrishna Sahu (bksahu)
+
+# My email 
+author_email: batakrishna.sahu@suiit.ac.in
