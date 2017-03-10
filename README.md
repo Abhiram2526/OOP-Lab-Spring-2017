@@ -6,7 +6,7 @@ A repository for the JAVA lab & class assignments of Spring-2017.
 
 ## Contents:
 
-### lab-assignments
+### A. lab-assignments
 
 **1.** `hello-world` Say hello to java.
 
@@ -20,4 +20,4 @@ A repository for the JAVA lab & class assignments of Spring-2017.
 
 **6.** `java-control-structure` with great power comes great responsibility. **(Pending)**
 
-### class-work
+### B. class-work
