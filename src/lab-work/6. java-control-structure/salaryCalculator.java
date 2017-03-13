@@ -1,7 +1,7 @@
 /**
 * (Salary Calculator) A Java application that determines the gross pay for each of three employees. The company pays straight time 
 * for the first 40 hours worked by each employee and time and a half for all hours worked in excess of 40. Given a list of the 
-* employees, their number of hours worked last week and their hourly rates. This program inputs this information for each employee, 
+* employees, their number of hours worked last week and their hourly rates. The program input this information for each employee, 
 * then determine and display the employee’s gross pay. 
 */
 

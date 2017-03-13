@@ -1,10 +1,9 @@
 /**
-* Write an application that reads three nonzero values entered by the user and determines and prints whether they could represent the sides
-* of a triangle.
+* An application that reads three nonzero values entered by the user and determines and
+* prints whether they could represent the sides of a triangle.
 */
 
  import java.util.Scanner;
- import java.io.*;
  
  public class triangle {
  	public static void main(String[] args) {
@@ -18,17 +17,13 @@
  		int side2 = input.nextInt();
  		System.out.printf("Enter third side : ");
  		int side3 = input.nextInt();
- 		
- 		// Check if side of a triangle
- 		if((side1 + side2) > side3)
- 		{
-			if((side2 + side3) > side1)
-			{
-				if((side1 + side3) > side2) 
-				{
-				flag = true;
-				}
-			}
+ 
+ 		// Check if sides are NON-zero		
+ 		if((side1>0&&side2>0)&&(side3>0)) {
+			
+			// Check if side of a triangle
+ 			if(((side1 + side2) > side3&&(side2 + side3) > side1)&&(side1 + side3) > side2) 
+ 				flag = true;
 		}
 		
  		

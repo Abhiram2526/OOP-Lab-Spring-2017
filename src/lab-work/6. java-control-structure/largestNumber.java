@@ -1,5 +1,5 @@
 /**
-* Write a Java application that inputs a series of 10 integers and determines and prints the largest integer.
+* A Java application that inputs a series of 10 integers and determines and prints the largest integer.
 */
 
  import java.util.Scanner;
