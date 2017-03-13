@@ -23,3 +23,5 @@ A repository for the JAVA lab & class assignments of Spring-2017.
 **7.** `class-object` No you can't throw those objects in your class
 
 ### B. class-work
+
+**Contains all the class illustrations**
