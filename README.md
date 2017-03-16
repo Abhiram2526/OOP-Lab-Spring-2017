@@ -26,4 +26,8 @@ A repository for the JAVA lab & class assignments of Spring-2017.
 
 ### B. class-work
 
-**Contains all the class illustrations**
+**Contains all the importatnt class illustrations**
+
+### C. personal-stuff
+
+**Contains all my personal expiremental stuff**
