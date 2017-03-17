@@ -37,18 +37,21 @@
 	public static final String ANSI_CYAN = "\u001B[36m";
 	public static final String ANSI_WHITE = "\u001B[37m";
 	
+	/* Creating an object of LevelSelect Class */
+	LevelSelect newGame = new LevelSelect();
+
  	/** Showing the main menu of the game */
 	void start() {
 		
 		while(true) {
 			gameName();
-			System.out.printf("\n\n\t\t\t1.START\n2.HIGH SCORES\n3.EXIT");
+			System.out.printf("\n\n\t\t\t1.START\n\n\t\t\t2.SCORES\n\n\t\t\t3.EXIT");
 			int choice = input.nextInt();
 			if(choice==1)   	 	
-	 			//levelSelect();
+	 			newGame.levelSelectMenu();
 	 		else if(choice==2)
-				//highScores();
-			else
+				newGame.playerScore();
+			else 
 				break;
 		}	
  	}
