@@ -17,49 +17,14 @@
  * published by the Free Software Foundation.
  */
 
- import java.util.Scanner;
- import java.security.SecureRandom;
 
  public class GuessMe {
- 	
- 	/* Using SecureRandom & Scanner class */
- 	private static final SecureRandom randomNumber = new SecureRandom();
- 	private static final Scanner input = new Scanner(System.in);
+ 	public static void main(String[] args) {
 
- 	/* Using color codes for Text */
- 	public static final String ANSI_RESET = "\u001B[0m";
-	public static final String ANSI_BLACK = "\u001B[30m";
-	public static final String ANSI_RED = "\u001B[31m";
-	public static final String ANSI_GREEN = "\u001B[32m";
-	public static final String ANSI_YELLOW = "\u001B[33m";
-	public static final String ANSI_BLUE = "\u001B[34m";
-	public static final String ANSI_PURPLE = "\u001B[35m";
-	public static final String ANSI_CYAN = "\u001B[36m";
-	public static final String ANSI_WHITE = "\u001B[37m";
-	
-	public static void main(String[] args) {
+ 		/* creating and object of MainMenu Class */
+ 		MainMenu newGame = new MainMenu();
 
-		while(true) {
-
-			/* Showing the name of the game */
-			gameName();
-			break;
-		}
+ 		/* calling start methord to start the game */
+ 		newGame.start();
  	}
-
- 	/** Guess Me v0.1 **/
-	public static void gameName() {
-	System.out.printf("\n\n");
-	System.out.println(ANSI_GREEN + "   _______  _______  _______  _______  _______	_______  _______" + ANSI_RESET );
-    System.out.println(ANSI_GREEN + "   |     |  |     |  |     |  |     |  |     |	|     |  |     |" + ANSI_RESET);
-    System.out.println(ANSI_GREEN + "   |  " + ANSI_RED + "G" + ANSI_GREEN + "  |  |  " + ANSI_RED + 
-    	"U" + ANSI_GREEN + "  |  |  " + ANSI_RED + "E" + ANSI_GREEN + "  |  |  " + ANSI_RED + "S" +
-    	 ANSI_GREEN + "  |  |  " + ANSI_RED + "S" + ANSI_GREEN + "  |  |  " + ANSI_RED + "M" +
-    	  ANSI_GREEN + "  |  |  " + ANSI_RED + "E" + ANSI_GREEN + "  |" + ANSI_RESET);
-    System.out.println(ANSI_GREEN + "   |_____|  |_____|  |_____|  |_____|  |_____|	|_____|  |_____|" + 
-    	ANSI_GREEN + " v0.1" + ANSI_RESET);
-    System.out.println("\n\t\t\t\t\t" + ANSI_GREEN + "(c) 2017 Batakrishna Sahu" + ANSI_RESET);
-    System.out.printf("\n\n");
-	} 	
-
-}
+ }
