@@ -27,7 +27,7 @@
  	private static final Scanner input = new Scanner(System.in);
 
  	/* Stores the Player Score */
- 	private static int playerScore = 0;
+ 	private static int numberOfTries = 0;
 
  	/* Color codes for Text */
  	public static final String ANSI_RESET = "\u001B[0m";
@@ -42,8 +42,9 @@
 	
 	/* Level Select Menu */
 	void levelSelectMenu() {
-		System.out.println("\n\n\t\t\tSELECT LEVEL");
-		System.out.printf("\t\t\t1.EASY\n\t\t\t2.NORMAL\n\t\t\t3.INSANE\n\t\t\t> ");
+		System.out.println(ANSI_CYAN + "\n\n\t\t\t  SELECT LEVEL" + ANSI_RESET);
+		System.out.printf(ANSI_PURPLE + "\t\t\t  1.EASY" + ANSI_YELLOW +"\n\t\t\t  2.NORMAL" + 
+			ANSI_RED + "\n\t\t\t  3.INSANE\n\t\t\t" + ANSI_WHITE + "  > " + ANSI_RESET);
 		int choice = input.nextInt();
 		switch(choice) {
 			case 1 : 
@@ -68,8 +69,8 @@
 	/* Easy Level */
 	void easyLevel() {
 		int generatedGuess = 1 + randomNumber.nextInt(1000);
+ 		
  		while(true) {
-
  			System.out.printf("\nEnter Your Guess (Between 1-1000) : ");
  			int userGuess = input.nextInt();
 
@@ -82,15 +83,15 @@
  			if((userGuess - generatedGuess)==0) {
  				win();
  			}
- 			playerScore += 10;			// 100-n*10 points for easy level
+ 			numberOfTries += 10;			// 100-n*10 points for easy level
  		}			
 	}
 
 	/* Normal Level */
 	void normalLevel() {
 		int generatedGuess = 1 + randomNumber.nextInt(1000);
- 		while(true) {
 
+ 		while(true) {
  			System.out.printf("\nEnter Your Guess (Between 1-1000) : ");
  			int userGuess = input.nextInt();
 
@@ -103,7 +104,7 @@
  			if((userGuess - generatedGuess)==0) {
  				win();
  			}
- 			playerScore += 5;			// 100-n*5 points for easy level
+ 			numberOfTries += 5;			// 100-n*5 points for easy level
  		}
 	}
 
@@ -111,7 +112,6 @@
 	void insaneLevel() {
 		int generatedGuess = 1 + randomNumber.nextInt(1000);
  		while(true) {
-
  			System.out.printf("\nEnter Your Guess (Between 1-1000) : ");
  			int userGuess = input.nextInt();
 
@@ -124,14 +124,15 @@
  			if((userGuess - generatedGuess)==0) {
  				win();
  			}
- 			playerScore += 2;			// 100-n*2 points for easy level
+ 			numberOfTries += 2;			// 100-n*2 points for easy level
  		}
  	}
 
 
 	/* Win Message */
 	void win() {
-		System.out.println(ANSI_CYAN + "\n\t\t\tCONGRATULATIONS YOU WON!!!\n\n" + ANSI_RESET);
+		System.out.println(ANSI_CYAN + "\n\n\n\n\n\t\t\tCONGRATULATIONS" + ANSI_PURPLE +
+		 " YOU" + ANSI_BLUE + " WON!!!\n\n\n\n\n" + ANSI_RESET);
  		System.out.printf("PRESS 1 to PLAY AGAIN or 2 to EXIT\n>>");
  		int choice = input.nextInt();
  		if(choice==1)
@@ -140,7 +141,7 @@
 
 	/* Displays Player Score */
 	void playerScore() {
-		System.out.println("Your playerScore is " + (100-playerScore));
+		System.out.println("Your Score is " + (100-numberOfTries));
 	}
 
 

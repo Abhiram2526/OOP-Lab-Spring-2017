@@ -45,7 +45,8 @@
 		
 		while(true) {
 			gameName();
-			System.out.printf("\n\n\t\t\t1.START\n\n\t\t\t2.SCORES\n\n\t\t\t3.EXIT");
+			System.out.printf(ANSI_GREEN + "\n\n\t\t\t  1.START" + ANSI_RED + "\n\t\t\t  2.SCORES" +
+				ANSI_YELLOW + "\n\t\t\t  3.EXIT\n\t\t\t" + ANSI_WHITE + "  > " + ANSI_RESET);
 			int choice = input.nextInt();
 			if(choice==1)   	 	
 	 			newGame.levelSelectMenu();
