@@ -8,11 +8,12 @@
  
  
  public class fieldsTest_1 {
+ 	static int integer ;
  	public static void main(String[] args) {
 		
 		//Declaring & Initializing Variables
 		
-		int integer ;
+		
 		float floating = 5.0f;
 		double floatingDouble = 5.0;
 		String stringType = "This is a string type";
@@ -20,7 +21,7 @@
 		short shortType = 2;
 		char character = 'A';
 		boolean b = true;
-		long l;
+		long l=1;
 		
 		
 		System.out.println("Interger:" + integer + "\nFloating(float):"
