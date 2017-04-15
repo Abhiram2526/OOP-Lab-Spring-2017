@@ -21,6 +21,6 @@ A repository for the JAVA lab s assignments of Spring-2017.
 
 **7.** `class-object` No you can't throw those objects in your class
 
-**8.** `user-defined-methords` Methords that we define
+**8.** `user-defined-methords` Methods that we define
 
 **9.** `arrays` Got a packet
