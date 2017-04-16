@@ -7,20 +7,20 @@ A repository for the JAVA lab s assignments of Spring-2017.
 ## Contents:
 
 
-**1.** `hello-world` Say hello to java.
+**1.** `hello-world` Say hello to java. :wave:
 
-**2.** `real-world-objects` ~~Not~~ real world objects.
+**2.** `real-world-objects` ~~Not~~ real world objects. :earth_asia:
 
-**3.** `java-basic-concepts` Here comes the concept.
+**3.** `java-basic-concepts` Here comes the concept. :mortar_board:
 
-**4.** `java-basic-io` Let's input stuff without expecting much.
+**4.** `java-basic-io` Let's input stuff without expecting much. :computer:
 
-**5.** `body-mass-index` 'Cause humans are obese.
+**5.** `body-mass-index` 'Cause humans are obese. :fork_and_knife:
 
-**6.** `java-control-structure` with great power comes great responsibility. 
+**6.** `java-control-structure` with great power comes great responsibility. :muscle:
 
-**7.** `class-object` No you can't throw those objects in your class
+**7.** `class-object` No you can't throw those objects in your class. :black_circle:
 
-**8.** `user-defined-methords` Methods that we define
+**8.** `user-defined-methords` Methods that we define. :snake:
 
-**9.** `arrays` Got a packet
+**9.** `arrays`hip hip array! :tada:
