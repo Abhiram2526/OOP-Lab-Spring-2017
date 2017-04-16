@@ -32,9 +32,9 @@ class My_Dog_Runs {
 	dog1.changeWagging("Yup");
 	dog1.printBehavior();
 	
-	dog1.changeBarking("My-Names-Jeff!");
-	dog1.changeFetch("Ball");
-	dog1.changeWagging("Hates It");
-	dog1.printBehavior();
+	dog2.changeBarking("My-Names-Jeff!");
+	dog2.changeFetch("Ball");
+	dog2.changeWagging("Hates It");
+	dog2.printBehavior();
 	}
 }
