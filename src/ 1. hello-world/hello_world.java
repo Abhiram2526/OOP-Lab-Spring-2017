@@ -3,7 +3,7 @@
  * A simple hello-world program that will give an output "Hello World !"
  */
 
- public class hello_world {
+ class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello World !");
 	}

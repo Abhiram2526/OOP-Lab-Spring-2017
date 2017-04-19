@@ -11,7 +11,7 @@
  		employee employee1 = new employee("Barney", "Stinson", 69.69);
  		
  		// Creating object 2 and initiallizing with set-methords
- 		employee employee2 = new employee("\0","\0",0.0);
+ 		employee employee2 = new employee();
  		employee2.setFirstName("Sheldon");
  		employee2.setLastName("Cooper");
  		employee2.setMonthlySalary(182.63);

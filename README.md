@@ -23,4 +23,6 @@ A repository for the JAVA lab s assignments of Spring-2017.
 
 **8.** `user-defined-methords` Methods that we define. :snake:
 
-**9.** `arrays`hip hip array! :tada:
+**9.** `arrays` hip hip array! :tada:
+
+**10.** `using-java-classes-and-methods` we meet again :smile: 

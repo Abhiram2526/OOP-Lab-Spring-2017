@@ -19,6 +19,12 @@
  			this.monthlySalary = monthlySalary;
  	}
 
+ 	public employee() {
+ 		firstName = "Tony";
+ 		lastName = "Stark";
+ 		monthlySalary = 2000.00;
+ 	}
+
  	// set-methords to set the value of the instances
  	public void setFirstName(String firstName) {
  		this.firstName = firstName;
