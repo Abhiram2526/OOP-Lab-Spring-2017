@@ -26,3 +26,5 @@ A repository for the JAVA lab s assignments of Spring-2017.
 **9.** `arrays` hip hip array! :tada:
 
 **10.** `using-java-classes-and-methods` we meet again :smile: 
+
+**"*"** `miscellaneous` Misssi-llaaa-neee-ous :boom:
