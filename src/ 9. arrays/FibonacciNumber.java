@@ -19,7 +19,7 @@ public class FibonacciNumber {
 		Scanner input = new Scanner(System.in);
 
 		System.out.printf("Enter the value of N : ");
-		long n = input.nextInt();
+		long n = input.nextLong();
 
 		System.out.println("Nth fibonacci number is : " + fibonacciSeries(n));
 
