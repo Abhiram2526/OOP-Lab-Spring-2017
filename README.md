@@ -27,4 +27,6 @@ A repository for the JAVA lab s assignments of Spring-2017.
 
 **10.** `using-java-classes-and-methods` we meet again :smile: 
 
+**11.** `Inheritance` Shape of shapes :large_orange_diamond:
+
 **"*"** `miscellaneous` Misssi-llaaa-neee-ous :boom:
