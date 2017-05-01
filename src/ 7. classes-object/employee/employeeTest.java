@@ -8,8 +8,8 @@
  	public static void main(String[] args) {
 
  		// Creating object 1 and initiallizing with the constructor 
- 		employee employee1 = new employee("Barney", "Stinson", 69.69);
- 		
+ 		employee employee1 = new employee("Snehasis", "Mohapatra", 69.69);
+  		
  		// Creating object 2 and initiallizing with set-methords
  		employee employee2 = new employee();
  		employee2.setFirstName("Sheldon");
@@ -29,6 +29,6 @@
  		 	employee1.getLastName(), employee1.getMonthlySalary()*12);
  		System.out.printf("Yearly Salary of %s %s of after 10 percent raise is %.2f\n", employee2.getFirstName(),
  		 	employee2.getLastName(), (employee2.getMonthlySalary() + 0.1*employee2.getMonthlySalary())*12);
-
+ 		System.out.println(employee2);
  	}
  }

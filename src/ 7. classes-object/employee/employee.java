@@ -12,11 +12,11 @@
  	private String lastName;
  	private double monthlySalary;
 
- 	public employee(String firstName, String lastName, double monthlySalary) {
- 		this.firstName = firstName;
- 		this.lastName = lastName;
- 		if(monthlySalary>0.0)
- 			this.monthlySalary = monthlySalary;
+ 	public employee(String f, String l, double m) {
+ 		firstName = f;
+ 		lastName = l;
+ 		if(m>0.0)
+ 			monthlySalary = m;
  	}
 
  	public employee() {
@@ -46,6 +46,11 @@
  	}
  	public double getMonthlySalary() {
  		return monthlySalary;
+ 	}
+
+ 	public String toString() {
+ 		return "\nFirst Name : " + this.firstName + "\nLast Name : " + this.lastName
+ 			 + "\nMonthly Salary : " + this.monthlySalary; 
  	}
 
  }
