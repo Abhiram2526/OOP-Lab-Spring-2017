@@ -18,10 +18,14 @@ public class Quadrilateral {
 	private Point corner2;
 	private Point corner3;
 	private Point corner4;
-	protected double side1;
-	protected double side2;
-	protected double side3;
-	protected double side4;
+	protected double topSide;
+	protected double bottomSide;
+	protected double leftSide;
+	protected double rightSide;
+
+	/* Coordinates of height */
+	protected Point heightCord1;
+	protected Point heightCord2;
 
 
 	/* Default Constructor which initiallizes to (0,0), (0,1), (1,1), (1,0) */
@@ -30,6 +34,8 @@ public class Quadrilateral {
 		corner2 = new Point(0,1);
 		corner3 = new Point(1,1);
 		corner4 = new Point(1,0);
+		heightCord1 = new Point(0,0);
+		heightCord2 = new Point(0,1);
 	}
 
 	/* Param Constructor */
@@ -83,29 +89,25 @@ public class Quadrilateral {
 		}
 	}
 
-	/* Display the state */
-	public String toString() {
-	    return "Point 1 = " + corner1 + "\n" +
-           "Point 2 = " + corner2 + "\n" +
-           "Point 3 = " + corner3 + "\n" +
-           "Point 4 = " + corner4;
-	}
 
 	/* Convert Points to Sides */
 	public void convertToSide() {
-        side1 = Math.sqrt(Math.pow(corner1.getX() - corner2.getX(), 2) + 
-            Math.pow(corner1.getY() - corner2.getY(), 2));							// Distance 1 to 2
-        side2 = Math.sqrt(Math.pow(corner3.getX() - corner2.getX(), 2) + 
-            Math.pow(corner3.getY() - corner2.getY(), 2));							// Distance 2 to 3
-        side3 = Math.sqrt(Math.pow(corner3.getX() - corner4.getX(), 2) + 
-            Math.pow(corner3.getY() - corner4.getY(), 2));							// Distance 3 to 4	
-        side4 = Math.sqrt(Math.pow(corner1.getX() - corner4.getX(), 2) + 
-            Math.pow(corner1.getY() - corner4.getY(), 2));							// Distance 4 to 1				
+        topSide = Math.sqrt(Math.pow(corner2.getX() - corner3.getX(), 2) + 
+            Math.pow(corner2.getY() - corner3.getY(), 2));
+        
+        rightSide = Math.sqrt(Math.pow(corner3.getX() - corner4.getX(), 2) + 
+            Math.pow(corner3.getY() - corner4.getY(), 2));
+        
+        bottomSide = Math.sqrt(Math.pow(corner4.getX() - corner1.getX(), 2) + 
+            Math.pow(corner4.getY() - corner1.getY(), 2));
+        
+        leftSide = Math.sqrt(Math.pow(corner2.getX() - corner1.getX(), 2) + 
+            Math.pow(corner2.getY() - corner1.getY(), 2));
 	}
 
 	/* Find the Area */
 	public double area() {
-		return side1*side2;			
+		return topSide*rightSide;			
 	}
 
 }
