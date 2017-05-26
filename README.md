@@ -29,4 +29,6 @@ A repository for the JAVA lab s assignments of Spring-2017.
 
 **11.** `Inheritance` Shape of shapes :large_orange_diamond:
 
+**12.** `Polymorphism` _Pending_
+
 **"*"** `miscellaneous` Misssi-llaaa-neee-ous :boom:
